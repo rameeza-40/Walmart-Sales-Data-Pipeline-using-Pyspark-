@@ -190,4 +190,5 @@ customer_report = joined_df.groupBy("Customer_id", "Name") \
         round((spark_sum("total_amount") / spark_count("Txn Id")), 2).alias("Avg_Transaction_Value")
     )
 
+
 customer_report.orderBy(col("Total_Purchases").desc()).show(truncate=False)
