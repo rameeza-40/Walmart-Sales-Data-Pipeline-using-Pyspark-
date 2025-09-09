@@ -103,8 +103,3 @@ Generate a report showing each customer’s:
 - Total purchases  
 - Number of transactions  
 - Average transaction value
-
-
-
-
-
